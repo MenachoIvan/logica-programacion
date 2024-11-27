@@ -67,7 +67,8 @@ Por favor, sigue el estilo de código y organización del proyecto.
 Este repositorio está bajo la licencia [MIT](https://github.com/MenachoRBB/logica-programacion/blob/main/LICENSE). Puedes usar el código, compartirlo y modificarlo como desees, siempre dando crédito al autor original.
 
 
-# Programming Logic
+
+# Programming Logic🧠💻 
 
 This repository contains a collection of programming logic challenges designed to enhance your problem-solving and algorithmic thinking skills. Here you will find problems of various difficulty levels and in different programming languages, primarily in JavaScript.
 
