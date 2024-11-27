@@ -1,6 +1,6 @@
 # Lógica de Programación 🧠💻 
 
-English bellow
+English below
 
 Este repositorio contiene una colección de retos de lógica de programación, diseñados para mejorar tus habilidades de resolución de problemas y pensamiento algorítmico. Aquí encontrarás problemas de distintos niveles de dificultad y en diferentes lenguajes de programación, generalmente en Javascript.
 
