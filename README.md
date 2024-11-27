@@ -66,7 +66,8 @@ Por favor, sigue el estilo de código y organización del proyecto.
 
 Este repositorio está bajo la licencia [MIT](https://github.com/MenachoRBB/logica-programacion/blob/main/LICENSE). Puedes usar el código, compartirlo y modificarlo como desees, siempre dando crédito al autor original.
 
-
+---
+---
 
 # Programming Logic🧠💻 
 
