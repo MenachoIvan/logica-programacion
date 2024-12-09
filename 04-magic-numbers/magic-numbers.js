@@ -7,14 +7,14 @@ function prepareGifts(gifts) {
     let result = []
 
     if(gifts.length > 0){
-        for(i in gifts){
+        for(let i in gifts){
             sinRepetidos.add(gifts[i])
         }
        // ahora aux no tiene duplicados
         result.push(...sinRepetidos)
-       return result.sort()
+       return result.sort((a, b) => a - b) // array function to sort numbers
     }
-    return result.sort()
+    return result
 }
 
 
@@ -31,6 +31,10 @@ const gifts3 = []
 const preparedGifts3 = prepareGifts(gifts3)
 console.log(preparedGifts3) // []
 // No hay regalos, la lista queda vacía, no gifts, void list.
+
+const gifts4 = [100, 1000, 100, 500, 200, 500, 200]
+const preparedGifts4 = prepareGifts(gifts4)
+console.log(preparedGifts4) // [100, 200, 500, 1000] 
 
 
   
