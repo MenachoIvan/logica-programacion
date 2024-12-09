@@ -3,7 +3,6 @@
  * @returns {string} The framed names
  */
 function createFrame(names) {
-    let lengths = []
     let max = 0
     let fixedLinesLength = 0
 
@@ -14,7 +13,7 @@ function createFrame(names) {
     
     // Calculo y definición del ancho del marco
     fixedLinesLength = max + 4
-    border = '*'.repeat(fixedLinesLength)
+    let border = '*'.repeat(fixedLinesLength)
 
     // Definición lineas interiores
     let nameLines = names.map(name =>{
