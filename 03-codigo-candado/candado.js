@@ -1,3 +1,4 @@
+
 function desbloquear(combinacion, movimientos) {
     let candado = combinacion.split("").map(Number);
     let posicion = 0;
