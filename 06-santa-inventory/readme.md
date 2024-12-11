@@ -1,3 +1,9 @@
+English below
+
+Reto de @midudev
+Nivel: Fácil
+
+
 Santa Claus 🎅 está revisando el inventario de su taller para preparar la entrega de regalos. Los elfos han registrado los juguetes en un array de objetos, pero la información está un poco desordenada. Necesitas ayudar a Santa a organizar el inventario.
 
 Recibirás un array de objetos, donde cada objeto representa un juguete y tiene las propiedades:
