@@ -4,7 +4,7 @@
  */
 function organizeShoes(shoes) {
 
-    const counts = {}
+    let counts = {}
     let pairs = []
 
     shoes.forEach((shoe) => {
@@ -24,9 +24,11 @@ function organizeShoes(shoes) {
       });
 
       Object.keys(counts).forEach((size) => {
-        const leftCount = counts[size].I || 0
-        const rightCount = counts[size].R || 0
-        if (Math.min(leftCount, rightCount) > 0) {
+        const LEFT_COUNT = counts[size].I || 0
+        const RIGHT_COUNT = counts[size].R || 0
+        const NUM_PAIRS = Math.min(LEFT_COUNT, RIGHT_COUNT)
+
+        for (let i = 0; i < NUM_PAIRS; i++) {
             pairs.push(parseInt(size))
         }
     });
@@ -44,3 +46,14 @@ function organizeShoes(shoes) {
   
   console.log(organizeShoes(shoes))
   // [38, 42]
+
+  const shoes2 = [
+    { type: 'I', size: 38 },
+    { type: 'R', size: 38 },
+    { type: 'I', size: 38 },
+    { type: 'I', size: 38 },
+    { type: 'R', size: 38 }
+  ]
+  
+  console.log(organizeShoes(shoes2))
+  // [38, 38]
